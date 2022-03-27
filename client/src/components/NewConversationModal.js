@@ -35,7 +35,6 @@ export default function NewConversationModal({ closeModal, modalOpen }) {
     setSelectedIds([]);
     closeModal();
   };
-  //   console.log(selectedIds);
 
   const onCheckboxChange = (id) => {
     const index = selectedIds.indexOf(id);

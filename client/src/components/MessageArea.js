@@ -11,8 +11,6 @@ export default function MessageArea({ styles }) {
     }
   });
 
-  console.log(selectedConversation.messages);
-
   return (
     <List className={styles.messageArea}>
       {selectedConversation.messages.map((message, index) => {

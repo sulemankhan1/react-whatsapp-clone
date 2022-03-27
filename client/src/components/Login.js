@@ -27,7 +27,6 @@ function Login({ onIdSubmit }) {
 
   const createNewId = () => {
     const newId = uuidv4();
-    console.log("id genereted: ", newId);
     onIdSubmit(newId);
   };
   return (
